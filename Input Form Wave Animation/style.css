@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: cornflowerblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginDiv{
+  display: flex;
+  flex-direction: column;
+  background: rgb(19, 90, 223);
+  padding: 70px;
+  border-radius: 20px;
+}
+
+.inputDiv{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.loginDiv h2{
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.email,
+.password{
+  border: 0;
+  border-bottom: 3px solid white;
+  width: 300px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  outline: none;
+  padding: 3px;
+}
+
+.labelEmail,
+.labelPass{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: -25px;
+  transition: 0.4s ease;
+  background: cornflowerblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input::placeholder{
+  color: white;
+}
+
+.btn{
+  cursor: pointer;
+  border: 0;
+  background: cornflowerblue;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+p{
+  color: white;
+}
+
+span{
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.label-active{
+  position: absolute;
+  top: -35px;
+  transition: 0.4s ease;
+}
